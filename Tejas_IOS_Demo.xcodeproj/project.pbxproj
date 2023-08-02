@@ -13,7 +13,56 @@
 		9F1336802A73F68700B2EBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F13367E2A73F68700B2EBB4 /* Main.storyboard */; };
 		9F1336822A73F68800B2EBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1336812A73F68800B2EBB4 /* Assets.xcassets */; };
 		9F1336852A73F68800B2EBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1336832A73F68800B2EBB4 /* LaunchScreen.storyboard */; };
+		9F13368E2A73F6AB00B2EBB4 /* CleverTapLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 9F13368D2A73F6AB00B2EBB4 /* CleverTapLocation */; };
+		9F1336902A73F6AB00B2EBB4 /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9F13368F2A73F6AB00B2EBB4 /* CleverTapSDK */; };
+		9FA0FC692A78F8D000940F2D /* CTNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC682A78F8D000940F2D /* CTNotificationService */; };
+		9FA0FC6B2A78F8D500940F2D /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC6A2A78F8D500940F2D /* CleverTapSDK */; };
+		9FA0FC6D2A78F8D700940F2D /* CleverTapLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC6C2A78F8D700940F2D /* CleverTapLocation */; };
+		9FA0FC702A7901DF00940F2D /* CTNotificationContent in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC6F2A7901DF00940F2D /* CTNotificationContent */; };
+		9FA0FC772A7901FD00940F2D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA0FC762A7901FD00940F2D /* UserNotifications.framework */; };
+		9FA0FC792A7901FD00940F2D /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA0FC782A7901FD00940F2D /* UserNotificationsUI.framework */; };
+		9FA0FC7C2A7901FD00940F2D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA0FC7B2A7901FD00940F2D /* NotificationViewController.swift */; };
+		9FA0FC7F2A7901FD00940F2D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA0FC7D2A7901FD00940F2D /* MainInterface.storyboard */; };
+		9FA0FC832A7901FD00940F2D /* NotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9FA0FC752A7901FC00940F2D /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FA0FC882A79023E00940F2D /* CleverTapLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC872A79023E00940F2D /* CleverTapLocation */; };
+		9FA0FC8A2A79023F00940F2D /* CleverTapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC892A79023F00940F2D /* CleverTapSDK */; };
+		9FA0FC8C2A79023F00940F2D /* CTNotificationContent in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA0FC8B2A79023F00940F2D /* CTNotificationContent */; };
+		9FF0C0892A78CC55004DEF16 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0C0882A78CC55004DEF16 /* NotificationService.swift */; };
+		9FF0C08D2A78CC55004DEF16 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9FF0C0862A78CC55004DEF16 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FF0C0942A78CD44004DEF16 /* CTNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF0C0932A78CD44004DEF16 /* CTNotificationService */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FA0FC812A7901FD00940F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F13366D2A73F68700B2EBB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA0FC742A7901FC00940F2D;
+			remoteInfo = NotificationContent;
+		};
+		9FF0C08B2A78CC55004DEF16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F13366D2A73F68700B2EBB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF0C0852A78CC55004DEF16;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FF0C0912A78CC55004DEF16 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9FF0C08D2A78CC55004DEF16 /* NotificationService.appex in Embed Foundation Extensions */,
+				9FA0FC832A7901FD00940F2D /* NotificationContent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9F1336752A73F68700B2EBB4 /* Tejas_IOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tejas_IOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +73,16 @@
 		9F1336812A73F68800B2EBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1336842A73F68800B2EBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F1336862A73F68800B2EBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F628E862A77FE5D009FFEAA /* Tejas_IOS_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tejas_IOS_Demo.entitlements; sourceTree = "<group>"; };
+		9FA0FC752A7901FC00940F2D /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA0FC762A7901FD00940F2D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9FA0FC782A7901FD00940F2D /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		9FA0FC7B2A7901FD00940F2D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		9FA0FC7E2A7901FD00940F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9FA0FC802A7901FD00940F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF0C0862A78CC55004DEF16 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF0C0882A78CC55004DEF16 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		9FF0C08A2A78CC55004DEF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +90,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1336902A73F6AB00B2EBB4 /* CleverTapSDK in Frameworks */,
+				9F13368E2A73F6AB00B2EBB4 /* CleverTapLocation in Frameworks */,
+				9FA0FC702A7901DF00940F2D /* CTNotificationContent in Frameworks */,
+				9FF0C0942A78CD44004DEF16 /* CTNotificationService in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA0FC722A7901FC00940F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA0FC8A2A79023F00940F2D /* CleverTapSDK in Frameworks */,
+				9FA0FC882A79023E00940F2D /* CleverTapLocation in Frameworks */,
+				9FA0FC792A7901FD00940F2D /* UserNotificationsUI.framework in Frameworks */,
+				9FA0FC772A7901FD00940F2D /* UserNotifications.framework in Frameworks */,
+				9FA0FC8C2A79023F00940F2D /* CTNotificationContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0C0832A78CC55004DEF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA0FC6D2A78F8D700940F2D /* CleverTapLocation in Frameworks */,
+				9FA0FC6B2A78F8D500940F2D /* CleverTapSDK in Frameworks */,
+				9FA0FC692A78F8D000940F2D /* CTNotificationService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				9F1336772A73F68700B2EBB4 /* Tejas_IOS_Demo */,
+				9FF0C0872A78CC55004DEF16 /* NotificationService */,
+				9FA0FC7A2A7901FD00940F2D /* NotificationContent */,
 				9F1336762A73F68700B2EBB4 /* Products */,
+				9FA0FC672A78F8D000940F2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				9F1336752A73F68700B2EBB4 /* Tejas_IOS_Demo.app */,
+				9FF0C0862A78CC55004DEF16 /* NotificationService.appex */,
+				9FA0FC752A7901FC00940F2D /* NotificationContent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +146,7 @@
 		9F1336772A73F68700B2EBB4 /* Tejas_IOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9F628E862A77FE5D009FFEAA /* Tejas_IOS_Demo.entitlements */,
 				9F1336782A73F68700B2EBB4 /* AppDelegate.swift */,
 				9F13367A2A73F68700B2EBB4 /* SceneDelegate.swift */,
 				9F13367C2A73F68700B2EBB4 /* ViewController.swift */,
@@ -65,6 +156,34 @@
 				9F1336862A73F68800B2EBB4 /* Info.plist */,
 			);
 			path = Tejas_IOS_Demo;
+			sourceTree = "<group>";
+		};
+		9FA0FC672A78F8D000940F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA0FC762A7901FD00940F2D /* UserNotifications.framework */,
+				9FA0FC782A7901FD00940F2D /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA0FC7A2A7901FD00940F2D /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				9FA0FC7B2A7901FD00940F2D /* NotificationViewController.swift */,
+				9FA0FC7D2A7901FD00940F2D /* MainInterface.storyboard */,
+				9FA0FC802A7901FD00940F2D /* Info.plist */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		9FF0C0872A78CC55004DEF16 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0C0882A78CC55004DEF16 /* NotificationService.swift */,
+				9FF0C08A2A78CC55004DEF16 /* Info.plist */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +196,68 @@
 				9F1336712A73F68700B2EBB4 /* Sources */,
 				9F1336722A73F68700B2EBB4 /* Frameworks */,
 				9F1336732A73F68700B2EBB4 /* Resources */,
+				9FF0C0912A78CC55004DEF16 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF0C08C2A78CC55004DEF16 /* PBXTargetDependency */,
+				9FA0FC822A7901FD00940F2D /* PBXTargetDependency */,
+			);
+			name = Tejas_IOS_Demo;
+			packageProductDependencies = (
+				9F13368D2A73F6AB00B2EBB4 /* CleverTapLocation */,
+				9F13368F2A73F6AB00B2EBB4 /* CleverTapSDK */,
+				9FF0C0932A78CD44004DEF16 /* CTNotificationService */,
+				9FA0FC6F2A7901DF00940F2D /* CTNotificationContent */,
+			);
+			productName = Tejas_IOS_Demo;
+			productReference = 9F1336752A73F68700B2EBB4 /* Tejas_IOS_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FA0FC742A7901FC00940F2D /* NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA0FC842A7901FD00940F2D /* Build configuration list for PBXNativeTarget "NotificationContent" */;
+			buildPhases = (
+				9FA0FC712A7901FC00940F2D /* Sources */,
+				9FA0FC722A7901FC00940F2D /* Frameworks */,
+				9FA0FC732A7901FC00940F2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Tejas_IOS_Demo;
-			productName = Tejas_IOS_Demo;
-			productReference = 9F1336752A73F68700B2EBB4 /* Tejas_IOS_Demo.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationContent;
+			packageProductDependencies = (
+				9FA0FC872A79023E00940F2D /* CleverTapLocation */,
+				9FA0FC892A79023F00940F2D /* CleverTapSDK */,
+				9FA0FC8B2A79023F00940F2D /* CTNotificationContent */,
+			);
+			productName = NotificationContent;
+			productReference = 9FA0FC752A7901FC00940F2D /* NotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9FF0C0852A78CC55004DEF16 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF0C08E2A78CC55004DEF16 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				9FF0C0822A78CC55004DEF16 /* Sources */,
+				9FF0C0832A78CC55004DEF16 /* Frameworks */,
+				9FF0C0842A78CC55004DEF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			packageProductDependencies = (
+				9FA0FC682A78F8D000940F2D /* CTNotificationService */,
+				9FA0FC6A2A78F8D500940F2D /* CleverTapSDK */,
+				9FA0FC6C2A78F8D700940F2D /* CleverTapLocation */,
+			);
+			productName = NotificationService;
+			productReference = 9FF0C0862A78CC55004DEF16 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +272,12 @@
 					9F1336742A73F68700B2EBB4 = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					9FA0FC742A7901FC00940F2D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9FF0C0852A78CC55004DEF16 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 				};
 			};
 			buildConfigurationList = 9F1336702A73F68700B2EBB4 /* Build configuration list for PBXProject "Tejas_IOS_Demo" */;
@@ -111,11 +289,18 @@
 				Base,
 			);
 			mainGroup = 9F13366C2A73F68700B2EBB4;
+			packageReferences = (
+				9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */,
+				9FF0C0922A78CD44004DEF16 /* XCRemoteSwiftPackageReference "CTNotificationService" */,
+				9FA0FC6E2A7901DF00940F2D /* XCRemoteSwiftPackageReference "CTNotificationContent" */,
+			);
 			productRefGroup = 9F1336762A73F68700B2EBB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9F1336742A73F68700B2EBB4 /* Tejas_IOS_Demo */,
+				9FF0C0852A78CC55004DEF16 /* NotificationService */,
+				9FA0FC742A7901FC00940F2D /* NotificationContent */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +313,21 @@
 				9F1336852A73F68800B2EBB4 /* LaunchScreen.storyboard in Resources */,
 				9F1336822A73F68800B2EBB4 /* Assets.xcassets in Resources */,
 				9F1336802A73F68700B2EBB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA0FC732A7901FC00940F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA0FC7F2A7901FD00940F2D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0C0842A78CC55004DEF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +344,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FA0FC712A7901FC00940F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA0FC7C2A7901FD00940F2D /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0C0822A78CC55004DEF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0C0892A78CC55004DEF16 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FA0FC822A7901FD00940F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA0FC742A7901FC00940F2D /* NotificationContent */;
+			targetProxy = 9FA0FC812A7901FD00940F2D /* PBXContainerItemProxy */;
+		};
+		9FF0C08C2A78CC55004DEF16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF0C0852A78CC55004DEF16 /* NotificationService */;
+			targetProxy = 9FF0C08B2A78CC55004DEF16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9F13367E2A73F68700B2EBB4 /* Main.storyboard */ = {
@@ -161,6 +390,14 @@
 				9F1336842A73F68800B2EBB4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FA0FC7D2A7901FD00940F2D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA0FC7E2A7901FD00940F2D /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,10 +520,14 @@
 		9F13368A2A73F68800B2EBB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tejas_IOS_Demo/Tejas_IOS_Demo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tejas_IOS_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,8 +540,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,10 +552,14 @@
 		9F13368B2A73F68800B2EBB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tejas_IOS_Demo/Tejas_IOS_Demo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tejas_IOS_Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,8 +572,113 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FA0FC852A7901FD00940F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2.NotificationContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FA0FC862A7901FD00940F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2.NotificationContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FF0C08F2A78CC55004DEF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2.NotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF0C0902A78CC55004DEF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MY4LZCCZA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CT.Tejas-IOS-Demo2.NotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +706,105 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9FA0FC842A7901FD00940F2D /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA0FC852A7901FD00940F2D /* Debug */,
+				9FA0FC862A7901FD00940F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF0C08E2A78CC55004DEF16 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF0C08F2A78CC55004DEF16 /* Debug */,
+				9FF0C0902A78CC55004DEF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CleverTap/clevertap-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9FA0FC6E2A7901DF00940F2D /* XCRemoteSwiftPackageReference "CTNotificationContent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CleverTap/CTNotificationContent.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+		9FF0C0922A78CD44004DEF16 /* XCRemoteSwiftPackageReference "CTNotificationService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CleverTap/CTNotificationService.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F13368D2A73F6AB00B2EBB4 /* CleverTapLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapLocation;
+		};
+		9F13368F2A73F6AB00B2EBB4 /* CleverTapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapSDK;
+		};
+		9FA0FC682A78F8D000940F2D /* CTNotificationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF0C0922A78CD44004DEF16 /* XCRemoteSwiftPackageReference "CTNotificationService" */;
+			productName = CTNotificationService;
+		};
+		9FA0FC6A2A78F8D500940F2D /* CleverTapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapSDK;
+		};
+		9FA0FC6C2A78F8D700940F2D /* CleverTapLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapLocation;
+		};
+		9FA0FC6F2A7901DF00940F2D /* CTNotificationContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FA0FC6E2A7901DF00940F2D /* XCRemoteSwiftPackageReference "CTNotificationContent" */;
+			productName = CTNotificationContent;
+		};
+		9FA0FC872A79023E00940F2D /* CleverTapLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapLocation;
+		};
+		9FA0FC892A79023F00940F2D /* CleverTapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F13368C2A73F6AB00B2EBB4 /* XCRemoteSwiftPackageReference "clevertap-ios-sdk" */;
+			productName = CleverTapSDK;
+		};
+		9FA0FC8B2A79023F00940F2D /* CTNotificationContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FA0FC6E2A7901DF00940F2D /* XCRemoteSwiftPackageReference "CTNotificationContent" */;
+			productName = CTNotificationContent;
+		};
+		9FF0C0932A78CD44004DEF16 /* CTNotificationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF0C0922A78CD44004DEF16 /* XCRemoteSwiftPackageReference "CTNotificationService" */;
+			productName = CTNotificationService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F13366D2A73F68700B2EBB4 /* Project object */;
 }
